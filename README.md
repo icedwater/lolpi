@@ -13,9 +13,14 @@ It's an excuse to practice different languages and compare run times.
 ## Languages
 
  - Python 2.7 (I know it's deprecated, but it's installed here.)
+ - Python 3.8
 
 ## Performance
 
-This is done on Ubuntu 18.04 in WSL1 with ~16GB of memory.
+The initial benchmark was done on Ubuntu 18.04 in WSL1 with ~16GB of memory.
 
  - squaresix-2.7 takes 1m41s to get 3.14159264498238988139 (20M terms)
+
+Comparing this with a DigitalOcean droplet running Ubuntu 20.04 with ~1GB of memory:
+
+ - squaresix-3.8 takes 0m17.479s to get 3.141592587597036 (14.7M terms)
